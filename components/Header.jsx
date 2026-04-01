@@ -37,7 +37,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
 
             {/* LOGO */}
-            <Link href="#hero" className="flex items-center gap-2.5 group">
+            <Link href="#" className="flex items-center gap-2.5 group">
               <div className="w-9 h-9 rounded-full bg-blue-500 flex items-center justify-center shadow-sm group-hover:bg-blue-600 transition">
                 <svg
                     width="18"

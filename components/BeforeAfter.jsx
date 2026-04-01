@@ -1,9 +1,9 @@
 "use client";
-import {useState} from "react";
+import { useState } from "react";
 import clinicData from "@/config/clinicData";
 import Image from "next/image";
 
-function BeforeAfterCard({item}) {
+function BeforeAfterCard({ item }) {
     const [sliderPos, setSliderPos] = useState(50);
     const [isDragging, setIsDragging] = useState(false);
 
@@ -44,18 +44,20 @@ function BeforeAfterCard({item}) {
                     src={item.image2}
                     alt="After"
                     fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                 />
 
                 {/* BEFORE IMAGE */}
                 <div
                     className="absolute inset-0 overflow-hidden"
-                    style={{width: `${sliderPos}%`}}
+                    style={{ width: `${sliderPos}%` }}
                 >
                     <Image
                         src={item.image1}
                         alt="Before"
                         fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover"
                     />
                 </div>
@@ -63,7 +65,7 @@ function BeforeAfterCard({item}) {
                 {/* DIVIDER */}
                 <div
                     className="absolute top-0 bottom-0 w-0.5 bg-white z-10"
-                    style={{left: `${sliderPos}%`}}
+                    style={{ left: `${sliderPos}%` }}
                 >
                     {/* HANDLE */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -78,7 +80,7 @@ function BeforeAfterCard({item}) {
                                 stroke="#3b82f6"
                                 strokeWidth="2.5"
                             >
-                                <path d="M8 3L3 8l5 5M16 3l5 5-5 5"/>
+                                <path d="M8 3L3 8l5 5M16 3l5 5-5 5" />
                             </svg>
                         </div>
 
@@ -88,13 +90,13 @@ function BeforeAfterCard({item}) {
                 {/* LABELS */}
                 <span
                     className="absolute top-3 left-3 text-[10px] font-medium bg-black/40 text-white px-2 py-0.5 rounded-sm">
-          Before
-        </span>
+                    Before
+                </span>
 
                 <span
                     className="absolute top-3 right-3 text-[10px] font-medium bg-blue-600 text-white px-2 py-0.5 rounded-sm">
-          After
-        </span>
+                    After
+                </span>
             </div>
 
             {/* INFO */}
@@ -138,7 +140,7 @@ export default function BeforeAfter() {
                 {/* GRID */}
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {clinicData.beforeAfter.map((item) => (
-                        <BeforeAfterCard key={item.label} item={item}/>
+                        <BeforeAfterCard key={item.label} item={item} />
                     ))}
                 </div>
 

@@ -1,8 +1,8 @@
 "use client";
 
-import {useState} from "react";
+import { useState } from "react";
 import Select from "react-select";
-import {Phone, CheckCircle} from "lucide-react";
+import { Phone, CheckCircle } from "lucide-react";
 import clinicData from "@/config/clinicData";
 
 const timeSlots = [
@@ -23,7 +23,7 @@ export default function Appointment() {
     });
 
     function handleChange(e) {
-        setForm((prev) => ({...prev, [e.target.name]: e.target.value}));
+        setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     }
 
     function handleSubmit(e) {
@@ -49,7 +49,7 @@ export default function Appointment() {
             minHeight: "40px",
             boxShadow: "none",
             fontSize: "14px",
-            "&:hover": {borderColor: "#2563eb"},
+            "&:hover": { borderColor: "#2563eb" },
         }),
         menu: (base) => ({
             ...base,
@@ -87,7 +87,7 @@ export default function Appointment() {
                             className="flex items-center gap-3 border border-gray-200 rounded-sm p-4 bg-white"
                         >
                             <div className="w-8 h-8 bg-blue-600 text-white flex items-center justify-center rounded-sm">
-                                <Phone size={14}/>
+                                <Phone size={14} />
                             </div>
 
                             <div>
@@ -100,16 +100,16 @@ export default function Appointment() {
 
                         {/* WHATSAPP */}
                         <a
-                            href={`https://wa.me/${clinicData.whatsapp}`}
+                            href={`https://wa.me/${clinicData.whatsapp.replace(/\D/g, "")}`}
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-3 border border-gray-200 rounded-sm p-4 bg-white"
                         >
                             <div
                                 className="w-8 h-8 bg-green-500 text-white flex items-center justify-center rounded-sm">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                     className="bi bi-whatsapp" viewBox="0 0 16 16">
-                                    <path
-                                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                                    className="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.430.05-.197-.1-.836-.308-1.592-.985-.590-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.330.065-.134.034-.248-.015-.347-.050-.099-.445-1.076-.612-1.470-.160-.389-.323-.335-.445-.340-.114-.007-.247-.007-.380-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.710 1.916.810 2.049c.098.133 1.394 2.132 3.383 2.992.470.205.840.326 1.129.418.475.152.904.129 1.246.080.380-.058 1.171-.480 1.338-.943.164-.464.164-.860.114-.943-.049-.084-.182-.133-.380-.232" />
                                 </svg>
                             </div>
 
@@ -131,8 +131,8 @@ export default function Appointment() {
                                 <div key={h.day} className="flex justify-between text-sm py-1">
                                     <span className="text-gray-500">{h.day}</span>
                                     <span className="text-gray-900 font-medium">
-                    {h.time}
-                  </span>
+                                        {h.time}
+                                    </span>
                                 </div>
                             ))}
                         </div>
@@ -144,7 +144,7 @@ export default function Appointment() {
 
                         {submitted ? (
                             <div className="text-center py-10">
-                                <CheckCircle className="w-10 h-10 text-blue-600 mx-auto mb-3"/>
+                                <CheckCircle className="w-10 h-10 text-blue-600 mx-auto mb-3" />
                                 <h3 className="text-lg font-semibold text-gray-900">
                                     Appointment Confirmed
                                 </h3>
@@ -155,7 +155,6 @@ export default function Appointment() {
                         ) : (
                             <form onSubmit={handleSubmit} className="space-y-4">
 
-                                {/* NAME + PHONE */}
                                 <div className="grid sm:grid-cols-2 gap-3">
                                     <input
                                         name="name"
@@ -171,17 +170,16 @@ export default function Appointment() {
                                     />
                                 </div>
 
-                                {/* SERVICE */}
                                 <Select
+                                    instanceId="service-select"
                                     options={serviceOptions}
                                     placeholder="Select Service"
                                     styles={selectStyles}
                                     onChange={(val) =>
-                                        setForm((prev) => ({...prev, service: val}))
+                                        setForm((prev) => ({ ...prev, service: val?.value || null }))
                                     }
                                 />
 
-                                {/* DATE + TIME */}
                                 <div className="grid sm:grid-cols-2 gap-3">
                                     <input
                                         type="date"
@@ -191,16 +189,16 @@ export default function Appointment() {
                                     />
 
                                     <Select
+                                        instanceId="time-select"
                                         options={timeOptions}
                                         placeholder="Select Time"
                                         styles={selectStyles}
                                         onChange={(val) =>
-                                            setForm((prev) => ({...prev, time: val}))
+                                            setForm((prev) => ({ ...prev, time: val?.value || null }))
                                         }
                                     />
                                 </div>
 
-                                {/* NOTES */}
                                 <textarea
                                     name="notes"
                                     rows={3}
@@ -209,8 +207,8 @@ export default function Appointment() {
                                     className="input-modern rounded-sm"
                                 />
 
-                                {/* BUTTON */}
                                 <button
+                                    type="submit"
                                     className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 rounded-sm text-sm font-medium transition">
                                     Book Appointment
                                 </button>

@@ -35,6 +35,7 @@ export default function AboutDoctor() {
                                     src={doctor.image}
                                     alt={doctor.name}
                                     fill
+                                    sizes="(max-width: 640px) 100vw, 384px"
                                     className="object-cover"
                                     priority
                                 />

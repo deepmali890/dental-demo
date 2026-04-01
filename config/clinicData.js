@@ -1,7 +1,7 @@
 const clinicData = {
 
     // Basic Information
-    clinicName: "BrightSmile Dental",
+    clinicName: "Mateshavri Dental Care",
     tagline: "Where Every Smile Tells a Story",
     subTagline:
         "Advanced dental care with a gentle touch. Trusted by 5,000+ families in Jodhpur.",
@@ -9,10 +9,10 @@ const clinicData = {
 
     // Doctor
     doctor: {
-        name: "Dr. Priya Sharma",
+        name: "Dr. Dileep Mali",
         title: "BDS, MDS – Oral & Maxillofacial Surgery",
         experience: "14+ Years Experience",
-        bio: "Dr. Priya Sharma is a highly qualified oral surgeon with over 14 years of experience in cosmetic and restorative dentistry. She completed her postgraduate studies from AIIMS New Delhi and has helped thousands of patients reclaim their confidence through exceptional dental care.",
+        bio: "Dr. Dileep Mali is a highly qualified oral surgeon with over 14 years of experience in cosmetic and restorative dentistry. He completed his postgraduate studies from AIIMS New Delhi and has helped thousands of patients reclaim their confidence through exceptional dental care.",
         credentials: [
             "BDS – Rajasthan University",
             "MDS – AIIMS New Delhi",
@@ -26,8 +26,8 @@ const clinicData = {
     phone: "+91-98765-43210",
     phoneDisplay: "+91 98765 43210",
     whatsapp: "919876543210",
-    whatsappMessage: "Hello! I'd like to book an appointment at BrightSmile Dental.",
-    email: "hello@brightsmile.in",
+    whatsappMessage: "Hello! I'd like to book an appointment at Mateshavri Dental Care.",
+    email: "hello@mateshavri.in",
 
     // Location
     address: "12, Residency Road, Near Circuit House",
@@ -105,7 +105,7 @@ const clinicData = {
             name: "Amit Rathore",
             location: "Jodhpur",
             rating: 5,
-            text: "Dr. Priya transformed my smile completely. The implants look so natural — even my family couldn't tell. Professional, painless, and worth every rupee.",
+            text: "Dr. Dileep transformed my smile completely. The implants look so natural — even my family couldn't tell. Professional, painless, and worth every rupee.",
             treatment: "Dental Implants",
             avatar: "A",
         },
@@ -113,7 +113,7 @@ const clinicData = {
             name: "Sunita Mehta",
             location: "Barmer",
             rating: 5,
-            text: "I was terrified of dentists before visiting BrightSmile. The team was so patient and caring. My teeth whitening results are stunning!",
+            text: "I was terrified of dentists before visiting Mateshavri Dental Care. The team was so patient and caring. My teeth whitening results are stunning!",
             treatment: "Teeth Whitening",
             avatar: "S",
         },
@@ -121,7 +121,7 @@ const clinicData = {
             name: "Raj Singhvi",
             location: "Jodhpur",
             rating: 5,
-            text: "Brought my 7-year-old here and she actually enjoyed her visit! Dr. Priya is amazing with kids. Highly recommend for families.",
+            text: "Brought my 7-year-old here and she actually enjoyed her visit! Dr. Dileep is amazing with kids. Highly recommend for families.",
             treatment: "Kids' Dentistry",
             avatar: "R",
         },
@@ -140,20 +140,20 @@ const clinicData = {
         {
             label: "Smile Makeover",
             description: "Veneers + whitening for a complete transformation",
-            image1:"https://images.unsplash.com/photo-1679136293900-05b227099221?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            image2:"https://images.unsplash.com/photo-1512376125713-158d3de52286?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image1: "/images/before1.jpg",
+            image2: "/images/after1.jpg",
         },
         {
             label: "Teeth Alignment",
             description: "12-month Invisalign treatment",
-            image1:"https://images.unsplash.com/photo-1512376125713-158d3de52286?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            image2:"https://images.unsplash.com/photo-1679136293900-05b227099221?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image1: "/images/before2.jpg",
+            image2: "/images/after2.jpg",
         },
         {
             label: "Implant Restoration",
             description: "Full arch restoration with implants",
-            image1:"https://images.unsplash.com/photo-1679136293900-05b227099221?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            image2:"https://images.unsplash.com/photo-1512376125713-158d3de52286?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image1: "/images/before3.jpg",
+            image2: "/images/after3.jpg",
         },
     ],
 
