@@ -94,7 +94,7 @@ function BeforeAfterCard({ item }) {
                 </span>
 
                 <span
-                    className="absolute top-3 right-3 text-[10px] font-medium bg-blue-600 text-white px-2 py-0.5 rounded-sm">
+                    className="absolute top-3 right-3 text-[10px] font-medium bg-[#ef1f38] text-white px-2 py-0.5 rounded-sm">
                     After
                 </span>
             </div>
@@ -109,7 +109,7 @@ function BeforeAfterCard({ item }) {
                     {item.description}
                 </p>
 
-                <p className="text-xs text-blue-600 mt-2">
+                <p className="text-xs text-[#ef1f38] mt-2">
                     Drag to compare →
                 </p>
             </div>
@@ -124,7 +124,7 @@ export default function BeforeAfter() {
 
                 {/* HEADER */}
                 <div className="text-center max-w-2xl mx-auto mb-14">
-                    <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+                    <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
                         Real Results
                     </p>
 

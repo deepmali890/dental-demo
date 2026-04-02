@@ -9,7 +9,7 @@ export default function Location() {
 
         {/* HEADER */}
         <div className="text-center max-w-xl mx-auto mb-14">
-          <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+          <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
             Location
           </p>
 
@@ -29,8 +29,8 @@ export default function Location() {
 
             {/* ADDRESS */}
             <div className="border border-gray-200 rounded-sm p-4 flex gap-3">
-              <div className="w-9 h-9 bg-blue-50 flex items-center justify-center rounded-sm">
-                <MapPin size={16} className="text-blue-600" />
+              <div className="w-9 h-9 bg-[#ef1f38] flex items-center justify-center rounded-sm">
+                <MapPin size={16} className="text-white" />
               </div>
 
               <div>
@@ -46,15 +46,15 @@ export default function Location() {
 
             {/* PHONE */}
             <div className="border border-gray-200 rounded-sm p-4 flex gap-3">
-              <div className="w-9 h-9 bg-blue-50 flex items-center justify-center rounded-sm">
-                <Phone size={16} className="text-blue-600" />
+              <div className="w-9 h-9 bg-[#ef1f38] flex items-center justify-center rounded-sm">
+                <Phone size={16} className="text-white" />
               </div>
 
               <div>
                 <p className="text-sm font-medium text-gray-900 mb-1">
                   Phone
                 </p>
-                <a href={`tel:${clinicData.phone}`} className="text-blue-600 text-sm">
+                <a href={`tel:${clinicData.phone}`} className="text-[#ef1f38] text-sm">
                   {clinicData.phoneDisplay}
                 </a>
               </div>
@@ -62,15 +62,15 @@ export default function Location() {
 
             {/* EMAIL */}
             <div className="border border-gray-200 rounded-sm p-4 flex gap-3">
-              <div className="w-9 h-9 bg-blue-50 flex items-center justify-center rounded-sm">
-                <Mail size={16} className="text-blue-600" />
+              <div className="w-9 h-9 bg-[#ef1f38] flex items-center justify-center rounded-sm">
+                <Mail size={16} className="text-white" />
               </div>
 
               <div>
                 <p className="text-sm font-medium text-gray-900 mb-1">
                   Email
                 </p>
-                <a href={`mailto:${clinicData.email}`} className="text-blue-600 text-sm">
+                <a href={`mailto:${clinicData.email}`} className="text-[#ef1f38] text-sm">
                   {clinicData.email}
                 </a>
               </div>
@@ -79,7 +79,7 @@ export default function Location() {
             {/* HOURS */}
             <div className="border border-gray-200 rounded-sm p-4">
               <div className="flex items-center gap-2 mb-3">
-                <Clock size={14} className="text-blue-600" />
+                <Clock size={14} className="text-[#ef1f38]" />
                 <p className="text-sm font-medium text-gray-900">
                   Clinic Hours
                 </p>

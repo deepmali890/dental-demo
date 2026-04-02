@@ -1,7 +1,7 @@
 const clinicData = {
 
     // Basic Information
-    clinicName: "Mateshavri Dental Care",
+    clinicName: " Perfect Smile Orthodontic and Implant Centre",
     tagline: "Where Every Smile Tells a Story",
     subTagline:
         "Advanced dental care with a gentle touch. Trusted by 5,000+ families in Jodhpur.",
@@ -9,10 +9,10 @@ const clinicData = {
 
     // Doctor
     doctor: {
-        name: "Dr. Dileep Mali",
+        name: "Dr. Amit Bithu",
         title: "BDS, MDS – Oral & Maxillofacial Surgery",
         experience: "14+ Years Experience",
-        bio: "Dr. Dileep Mali is a highly qualified oral surgeon with over 14 years of experience in cosmetic and restorative dentistry. He completed his postgraduate studies from AIIMS New Delhi and has helped thousands of patients reclaim their confidence through exceptional dental care.",
+        bio: "Dr. Amit Bithu is a highly qualified oral surgeon with over 14 years of experience in cosmetic and restorative dentistry. He completed his postgraduate studies from AIIMS New Delhi and has helped thousands of patients reclaim their confidence through exceptional dental care.",
         credentials: [
             "BDS – Rajasthan University",
             "MDS – AIIMS New Delhi",
@@ -23,17 +23,17 @@ const clinicData = {
     },
 
     // Contact Information
-    phone: "+91-98765-43210",
-    phoneDisplay: "+91 98765 43210",
-    whatsapp: "919876543210",
-    whatsappMessage: "Hello! I'd like to book an appointment at Mateshavri Dental Care.",
-    email: "hello@mateshavri.in",
+    phone: "+91-94624 79281",
+    phoneDisplay: "+91 94624 79281",
+    whatsapp: "94624 79281",
+    whatsappMessage: "Hello! I'd like to book an appointment at Perfect Smile Orthodontic and Implant Centre.",
+    email: "hello@perfectsmile.in",
 
     // Location
-    address: "12, Residency Road, Near Circuit House",
+    address: "100 -C, Central School Scheme Main Rd, Air Force Area",
     city: "Jodhpur",
     state: "Rajasthan",
-    pincode: "342001",
+    pincode: "342011",
     mapEmbedUrl:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.123456789!2d73.0243!3d26.2389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDE0JzIwLjAiTiA3M8KwMDEnMjcuNSJF!5e0!3m2!1sen!2sin!4v1234567890",
     hours: [

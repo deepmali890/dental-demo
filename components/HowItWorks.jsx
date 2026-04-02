@@ -33,12 +33,12 @@ export default function HowItWorks() {
 
                 {/* HEADER */}
                 <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase  text-blue-600 px-4 py-1 rounded-full mb-4">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase  text-[#ef1f38] px-4 py-1 rounded-full mb-4">
             How It Works
           </span>
 
                     <h2 className="heading-lg md:text-5xl font-light text-gray-900 mb-4">
-                        Your Smile Journey <span className="text-blue-500">Simplified</span>
+                        Your Smile Journey <span className="text-[#ef1f38]">Simplified</span>
                     </h2>
 
                     <p className="text-gray-500 text-lg">
@@ -60,7 +60,7 @@ export default function HowItWorks() {
               </span>
 
                             {/* ICON */}
-                            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-5 text-blue-500 font-bold">
+                            <div className="w-12 h-12 rounded-xl bg-[#ef1f38] flex items-center justify-center mb-5 text-white font-bold">
                                 {step.number}
                             </div>
 

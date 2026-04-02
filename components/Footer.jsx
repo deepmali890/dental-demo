@@ -16,7 +16,7 @@ export default function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="bg-linear-to-b from-blue-900 to-blue-950 text-white">
+        <footer className="bg-linear-to-b from-[#ef1f38] to-[#ef1f38]/90 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -27,7 +27,7 @@ export default function Footer() {
                             {clinicData.clinicName}
                         </h3>
 
-                        <p className="text-white/60 text-sm max-w-sm mb-6">
+                        <p className="text-white text-sm max-w-sm mb-6">
                             {clinicData.tagline}. Providing advanced dental care in{" "}
                             {clinicData.city}.
                         </p>
@@ -77,7 +77,7 @@ export default function Footer() {
 
                     {/* LINKS */}
                     <div>
-                        <h4 className="text-xs uppercase text-white/40 mb-4">
+                        <h4 className="text-xs uppercase text-white mb-4">
                             Quick Links
                         </h4>
 
@@ -86,7 +86,7 @@ export default function Footer() {
                                 <li key={link.href}>
                                     <a
                                         href={link.href}
-                                        className="text-white/60 hover:text-blue-400 transition"
+                                        className="text-white  transition"
                                     >
                                         {link.label}
                                     </a>
@@ -97,23 +97,23 @@ export default function Footer() {
 
                     {/* CONTACT */}
                     <div>
-                        <h4 className="text-xs uppercase text-white/40 mb-4">
+                        <h4 className="text-xs uppercase text-white mb-4">
                             Contact
                         </h4>
 
                         <div className="space-y-4 text-sm">
 
-                            <a href={`tel:${clinicData.phone}`} className="flex gap-3 text-white/60 hover:text-white">
+                            <a href={`tel:${clinicData.phone}`} className="flex gap-3 text-white hover:text-white">
                                 <Phone size={16} />
                                 {clinicData.phoneDisplay}
                             </a>
 
-                            <a href={`mailto:${clinicData.email}`} className="flex gap-3 text-white/60 hover:text-white">
+                            <a href={`mailto:${clinicData.email}`} className="flex gap-3 text-white hover:text-white">
                                 <Mail size={16} />
                                 {clinicData.email}
                             </a>
 
-                            <div className="flex gap-3 text-white/60">
+                            <div className="flex gap-3 text-white">
                                 <MapPin size={16} />
                                 {clinicData.city}
                             </div>
@@ -124,9 +124,9 @@ export default function Footer() {
                 </div>
 
                 {/* BOTTOM */}
-                <div className="border-t border-white/10 mt-12 pt-6 flex flex-col sm:flex-row justify-between text-xs text-white/40">
+                <div className="border-t border-white/10 mt-12 pt-6 flex flex-col sm:flex-row justify-between text-xs text-white">
                     <p>© {year} {clinicData.clinicName}</p>
-                    <p className="text-blue-400">Built by Deeprise Solution</p>
+                    <p className="text-white">Built by Deeprise Solution</p>
                 </div>
 
             </div>

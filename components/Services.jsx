@@ -27,7 +27,7 @@ export default function Services() {
 
         {/* HEADER */}
         <div className="text-center mb-14 max-w-2xl mx-auto">
-          <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+          <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
             Services
           </p>
 
@@ -68,8 +68,8 @@ export default function Services() {
 
                   {/* ICON + TITLE */}
                   <div className="flex items-start gap-3 mb-2">
-                    <div className="w-9 h-9 bg-blue-50 border border-gray-200 flex items-center justify-center rounded-sm">
-                      <Icon size={18} className="text-blue-600" />
+                    <div className="w-9 h-9 bg-[#ef1f38] border border-gray-200 flex items-center justify-center rounded-sm">
+                      <Icon size={18} className="text-white" />
                     </div>
 
                     <h3 className="text-base font-semibold text-gray-900">
@@ -84,7 +84,7 @@ export default function Services() {
 
                   {/* HIGHLIGHT */}
                   {service.highlight && (
-                    <p className="text-xs text-blue-600 font-medium">
+                    <p className="text-xs text-[#ef1f38] font-medium">
                       {service.highlight}
                     </p>
                   )}

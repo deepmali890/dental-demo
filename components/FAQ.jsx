@@ -77,7 +77,7 @@ function FaqItem({ item, isOpen, onToggle }) {
             >
         <span
             className={`text-sm font-medium leading-snug ${
-                isOpen ? "text-blue-600" : "text-gray-900"
+                isOpen ? "text-[#ef1f38]" : "text-gray-900"
             }`}
         >
           {item.q}
@@ -86,7 +86,7 @@ function FaqItem({ item, isOpen, onToggle }) {
                 <span
                     className={`w-7 h-7 flex items-center justify-center rounded-sm text-xs ${
                         isOpen
-                            ? "bg-blue-600 text-white"
+                            ? "bg-[#ef1f38] text-white"
                             : "bg-gray-100 text-gray-500"
                     }`}
                 >
@@ -121,7 +121,7 @@ export default function FAQ() {
 
                 {/* HEADER */}
                 <div className="text-center max-w-2xl mx-auto mb-14">
-                    <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+                    <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
                         FAQ
                     </p>
 
@@ -150,8 +150,8 @@ export default function FAQ() {
                                     }}
                                     className={`px-4 py-2.5 rounded-sm text-sm text-left transition ${
                                         activeCategory === i
-                                            ? "bg-blue-600 text-white"
-                                            : "border border-gray-200 text-gray-600 hover:bg-blue-50"
+                                            ? "bg-[#ef1f38] text-white"
+                                            : "border border-gray-200 text-gray-600 hover:bg-[#ef1f38]/10"
                                     }`}
                                 >
                                     {group.category}
@@ -171,7 +171,7 @@ export default function FAQ() {
                             <a
                                 href={`https://wa.me/${clinicData.whatsapp}`}
                                 target="_blank"
-                                className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-sm text-sm hover:bg-blue-700 transition"
+                                className="inline-flex items-center gap-2 bg-[#ef1f38] text-white px-4 py-2 rounded-sm text-sm hover:bg-[#ef1f38]/90 transition"
                             >
                                 Chat Now
                             </a>

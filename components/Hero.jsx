@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 py-24 w-full text-center lg:text-left">
 
         {/* Badge */}
-        <p className="text-xs uppercase tracking-widest text-blue-200 mb-4 animate-fade-up-delay-1">
+        <p className="text-xs uppercase tracking-widest text-white mb-4 animate-fade-up-delay-1">
           Est. {clinicData.established} · {clinicData.city}
         </p>
 
@@ -35,12 +35,12 @@ export default function Hero() {
         </h1>
 
         {/* Tagline */}
-        <p className="text-lg md:text-xl text-blue-200 mt-4 max-w-2xl mx-auto lg:mx-0 animate-fade-up-delay-1">
+        <p className="text-lg md:text-xl text-white mt-4 max-w-2xl mx-auto lg:mx-0 animate-fade-up-delay-1">
           {clinicData.tagline}
         </p>
 
         {/* Sub */}
-        <p className="text-sm md:text-base text-blue-100 mt-4 max-w-xl mx-auto lg:mx-0 animate-fade-up-delay-1">
+        <p className="text-sm md:text-base text-white mt-4 max-w-xl mx-auto lg:mx-0 animate-fade-up-delay-1">
           {clinicData.subTagline}
         </p>
 
@@ -49,7 +49,7 @@ export default function Hero() {
 
           <a
             href="#contact"
-            className="flex items-center justify-center gap-2 px-6 py-3 rounded-sm bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition animate-fade-up-delay-1"
+            className="flex items-center justify-center gap-2 px-6 py-3 rounded-sm bg-[#ef1f38] text-white text-sm font-medium hover:bg-[#ef1f38]/90 transition animate-fade-up-delay-1"
           >
             <Calendar size={16} />
             Book Appointment
@@ -73,7 +73,7 @@ export default function Hero() {
               <p className="text-2xl font-semibold text-white">
                 {stat.value}
               </p>
-              <p className="text-xs text-blue-200">
+              <p className="text-xs text-white">
                 {stat.label}
               </p>
             </div>

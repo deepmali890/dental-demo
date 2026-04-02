@@ -13,7 +13,7 @@ function ReviewCard({review}) {
             {/* Stars */}
             <div className="flex gap-1 mb-2">
                 {[...Array(review.rating)].map((_, i) => (
-                    <Star key={i} size={14} fill="#3b82f6" color="#3b82f6"/>
+                    <Star key={i} size={14} fill="#ef1f38" color="#ef1f38"/>
                 ))}
             </div>
 
@@ -24,7 +24,7 @@ function ReviewCard({review}) {
             {/* User */}
             <div className="flex items-center gap-3">
                 <div
-                    className="w-9 h-9 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-semibold">
+                    className="w-9 h-9 rounded-full bg-[#ef1f38] flex items-center justify-center text-white text-xs font-semibold">
                     {review.avatar}
                 </div>
 
@@ -51,13 +51,13 @@ export default function Reviews() {
                     {/* LEFT */}
                     <div>
                         <span
-                            className="inline-block text-xs font-semibold uppercase tracking-widest bg-blue-50 text-blue-600 px-4 py-1 rounded-full mb-4">
+                            className="inline-block text-xs font-semibold uppercase tracking-widest bg-[#ef1f38] text-white px-4 py-1 rounded-full mb-4">
                             Testimonials
                         </span>
 
                         <h2 className="heading-lg font-light text-gray-900 mb-6 leading-tight">
                             What our patients <br/>
-                            <span className="text-blue-500">say about us</span>
+                            <span className="text-[#ef1f38] ">say about us</span>
                         </h2>
 
                         <p className="text-gray-500 mb-8 max-w-md">
@@ -67,7 +67,7 @@ export default function Reviews() {
 
                         <div className="flex items-center gap-2">
                             {[...Array(5)].map((_, i) => (
-                                <Star key={i} size={18} fill="#3b82f6" color="#3b82f6"/>
+                                <Star key={i} size={18} fill="#ef1f38" color="#ef1f38"/>
                             ))}
                             <span className="ml-2 text-gray-700 font-semibold">
                                 5.0 Rating

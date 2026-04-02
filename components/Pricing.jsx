@@ -21,7 +21,7 @@ export default function Pricing() {
 
                 {/* HEADER */}
                 <div className="text-center max-w-2xl mx-auto mb-14">
-                    <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+                    <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
                         Pricing
                     </p>
 
@@ -51,7 +51,7 @@ export default function Pricing() {
 
                         <a
                             href={`tel:${clinicData.phone}`}
-                            className="text-sm text-blue-600 sm:whitespace-nowrap"
+                            className="text-sm text-[#ef1f38] sm:whitespace-nowrap"
                         >
                             Call for exact quote
                         </a>
@@ -72,7 +72,7 @@ export default function Pricing() {
         </span>
 
                                 {/* PRICE */}
-                                <span className="text-sm font-medium text-blue-600 sm:ml-4 shrink-0">
+                                <span className="text-sm font-medium text-[#ef1f38] sm:ml-4 shrink-0">
           {item.price}
         </span>
                             </div>

@@ -63,7 +63,7 @@ export default function Appointment() {
 
                 {/* HEADER */}
                 <div className="text-center mb-14">
-                    <p className="text-xs uppercase tracking-widest text-blue-600 mb-2">
+                    <p className="text-xs uppercase tracking-widest text-[#ef1f38] mb-2">
                         Appointment
                     </p>
 
@@ -86,7 +86,7 @@ export default function Appointment() {
                             href={`tel:${clinicData.phone}`}
                             className="flex items-center gap-3 border border-gray-200 rounded-sm p-4 bg-white"
                         >
-                            <div className="w-8 h-8 bg-blue-600 text-white flex items-center justify-center rounded-sm">
+                            <div className="w-8 h-8 bg-[#ef1f38] text-white flex items-center justify-center rounded-sm">
                                 <Phone size={14} />
                             </div>
 
@@ -144,7 +144,7 @@ export default function Appointment() {
 
                         {submitted ? (
                             <div className="text-center py-10">
-                                <CheckCircle className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+                                <CheckCircle className="w-10 h-10 text-[#ef1f38] mx-auto mb-3" />
                                 <h3 className="text-lg font-semibold text-gray-900">
                                     Appointment Confirmed
                                 </h3>
@@ -209,7 +209,7 @@ export default function Appointment() {
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 rounded-sm text-sm font-medium transition">
+                                    className="w-full bg-[#ef1f38] hover:bg-[#ef1f38]/90 text-white py-2.5 rounded-sm text-sm font-medium transition">
                                     Book Appointment
                                 </button>
 

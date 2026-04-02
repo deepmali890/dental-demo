@@ -5,7 +5,7 @@ export default function Stats() {
     <section className="relative py-10 overflow-hidden">
 
       {/* Background */}
-      <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-blue-500 to-blue-700" />
+      <div className="absolute inset-0 bg-linear-to-br from-[#ef1f38] via-[#ef1f38] to-[#ef1f38]" />
 
       {/* Subtle Pattern */}
       <div className="absolute inset-0 opacity-10"

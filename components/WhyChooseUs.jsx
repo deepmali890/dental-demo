@@ -66,12 +66,12 @@ export default function WhyChooseUs() {
 
                 {/* HEADER */}
                 <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-xs font-semibold uppercase  text-blue-600 px-4 py-1 rounded-full mb-4">
+          <span className="inline-block text-xs font-semibold uppercase  text-[#ef1f38] px-4 py-1 rounded-full mb-4">
             Why Choose Us
           </span>
 
                     <h2 className="heading-lg md:text-5xl font-light text-gray-900 mb-4">
-                        Not just a clinic — <span className="text-blue-500">a promise</span>
+                        Not just a clinic — <span className="text-[#ef1f38]">a promise</span>
                     </h2>
 
                     <p className="text-gray-500">
@@ -93,12 +93,12 @@ export default function WhyChooseUs() {
                                 <div className="flex justify-between items-start mb-5">
 
                                     <div
-                                        className="w-12 h-12 rounded-sm bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white border-gray-200 transition">
+                                        className="w-12 h-12 rounded-sm bg-[#ef1f38] flex items-center justify-center text-white group-hover:bg-blue-500 group-hover:text-white border-gray-200 transition">
                                         <Icon size={22}/>
                                     </div>
 
                                     <div className="text-right">
-                                        <p className="text-xl font-semibold text-blue-600">
+                                        <p className="text-xl font-semibold text-[#ef1f38]">
                                             {reason.stat}
                                         </p>
                                         <p className="text-xs text-gray-400">
@@ -137,7 +137,7 @@ export default function WhyChooseUs() {
 
                     <a
                         href="#contact"
-                        className="bg-blue-600 text-white px-4 py-2 text-sm rounded-sm hover:bg-blue-700 transition"
+                        className="bg-[#ef1f38] text-white px-4 py-2 text-sm rounded-sm hover:bg-[#ef1f38]/90 transition"
                     >
                         Book Appointment
                     </a>
