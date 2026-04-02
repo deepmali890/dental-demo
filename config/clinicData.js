@@ -35,7 +35,7 @@ const clinicData = {
     state: "Rajasthan",
     pincode: "342011",
     mapEmbedUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.123456789!2d73.0243!3d26.2389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDE0JzIwLjAiTiA3M8KwMDEnMjcuNSJF!5e0!3m2!1sen!2sin!4v1234567890",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.132692998758!2d73.03955440000001!3d26.257356500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c3a63d4944b%3A0x711db1c02de214ae!2sPerfect%20Smile%20dental%20Clinic!5e0!3m2!1sen!2sin!4v1775121613387!5m2!1sen!2sin",
     hours: [
         { day: "Mon – Sat", time: "9:00 AM – 8:00 PM" },
         { day: "Sunday", time: "10:00 AM – 2:00 PM" },
@@ -46,45 +46,45 @@ const clinicData = {
         {
             id: "whitening",
             icon: "Sparkles",
-            title: "Teeth Whitening",
+            title: "Self Ligating (Friction Free)",
             description:
-                "Professional-grade whitening that removes years of stains in a single session. Up to 8 shades brighter.",
+                "Self ligating braces are the new choice in Orthodontics, No ligatures (orings) to stain or to attract plaque, Shorter duration of treatment, Less discomfort to patient. Opportunity to extend treatment. Fast appointment with less time",
             highlight: "Most Popular",
             image: "https://images.unsplash.com/photo-1670250492416-570b5b7343b1?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             id: "orthodontics",
             icon: "AlignCenter",
-            title: "Invisalign & Braces",
+            title: "Metal Braces",
             description:
-                "Straighten your teeth discreetly with clear aligners or traditional braces. Customised treatment plans.",
+                "This is a traditional method where the structure is made from the stainless steel and have the metal brackets in between to ensure the correct alignment of the teeth.",
             highlight: null,
             image: "https://images.unsplash.com/photo-1694675236489-d73651370688?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             id: "implants",
             icon: "CircleDot",
-            title: "Dental Implants",
+            title: "Ceramic Braces",
             description:
-                "Permanent tooth replacement that looks, feels, and functions exactly like your natural teeth.",
+                "Ceramic Braces are made of a strong translucent ceramic material these braces blend with the patient’s tooth colour, so appearance minded patients of all age can smile with confidence during treatment. They are designed to be comfortable to wear with rounded corners and smooth dome-shaped profile. They are less visible on your teeth than metal braces",
             highlight: "Premium",
             image: "https://images.unsplash.com/photo-1694345238872-323e773afc11?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             id: "rootcanal",
             icon: "Shield",
-            title: "Root Canal Treatment",
+            title: "Lingual Braces",
             description:
-                "Pain-free RCT using rotary endodontics. Save your tooth and eliminate pain in just 1–2 visits.",
+                "This is one of the alternative treatment for those who are trying to get their teeth straightened and don’t want their braces to be visualize. Lingual braces are placed behind the teeth and is custom made for every patients.",
             highlight: null,
             image: "https://images.unsplash.com/photo-1766338390573-ec092d69cdcb?q=80&w=1223&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             id: "cosmetic",
             icon: "Smile",
-            title: "Cosmetic Dentistry",
+            title: "Clear Aligners",
             description:
-                "Veneers, bonding, smile makeovers — crafted to enhance your unique facial aesthetics.",
+                "Clear Aligners are a series of invisible, removable orthodontics retainers that fit over your teeth. They are custom made to your teeth to guarantee a perfect fit. In order to get the smile you always wanted, simply wear your aligners every day atleast 21 hours. You only remove them to eat, drink, brush and floss. Steb by step, Clear aligners will correct your teeth. By applying gentle pressure, your teeth are straightened and efficiently moved into the desired position. With Clear Aligners you can carry on life as usual.Veneers, bonding, smile makeovers — crafted to enhance your unique facial aesthetics.",
             highlight: null,
             image: "https://images.unsplash.com/photo-1679136293900-05b227099221?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },

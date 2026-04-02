@@ -105,7 +105,7 @@ export default function Location() {
             {/* CLINIC IMAGE */}
             <div className="relative h-48 sm:h-56 border border-gray-200 rounded-sm overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1643660526741-094639fbe53a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/gallery/Gallery_9.jpg"
                 alt="Clinic"
                 fill
                 sizes="(max-width: 1024px) 100vw, 66vw"

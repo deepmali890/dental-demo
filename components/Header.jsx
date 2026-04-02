@@ -10,8 +10,8 @@ const navLinks = [
   { label: "Home", href: "#hero" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Results", href: "#before-after" },
-  { label: "Reviews", href: "#reviews" },
+  // { label: "Results", href: "#before-after" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Pricing", href: "#pricings" },
   { label: "Contact", href: "#contact" },
 ];
@@ -46,14 +46,17 @@ export default function Header() {
             </div>
 
             {/* TEXT */}
+            {/* TEXT */}
             <div className="leading-tight">
 
               {/* MAIN TITLE */}
-              <span className=" heading-sm font-bold text-gray-900 block tracking-tight">
-                Perfect Smile{" "} 
+              <span className="heading-sm font-bold text-gray-900 block tracking-tight [text-shadow:0_2px_6px_rgba(0,0,0,0.2)]">
+                Perfect Smile{" "}
                 <br />
-                <span className="text-[#ef1f38]">Orthodontic </span>
-                  & Implant Centre
+                <span className="text-[#ef1f38] [text-shadow:0_2px_6px_rgba(239,31,56,0.3)]">
+                  Orthodontic
+                </span>{" "}
+                & Implant Centre
               </span>
 
             </div>
@@ -66,7 +69,7 @@ export default function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-gray-600 hover:text-blue-600 transition"
+                className="text-sm text-gray-600 hover:text-[#ef1f38] transition"
               >
                 {link.label}
               </a>
@@ -77,6 +80,14 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-4">
 
             {/* PHONE */}
+            <a
+              href={`tel:${clinicData.phone}`}
+              className="flex items-center gap-2 text-sm text-gray-600"
+            >
+              <Phone size={14} />
+              +91 95711 44566
+            </a>
+
             <a
               href={`tel:${clinicData.phone}`}
               className="flex items-center gap-2 text-sm text-gray-600"

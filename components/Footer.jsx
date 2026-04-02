@@ -33,9 +33,8 @@ export default function Footer() {
                         </p>
 
                         {/* SOCIAL */}
-                        <div className="flex gap-3">
+                        {/* <div className="flex gap-3">
 
-                            {/* Instagram */}
                             {clinicData.social.instagram && (
                                 <a
                                     href={clinicData.social.instagram}
@@ -48,7 +47,6 @@ export default function Footer() {
                                 </a>
                             )}
 
-                            {/* Facebook */}
                             {clinicData.social.facebook && (
                                 <a
                                     href={clinicData.social.facebook}
@@ -61,7 +59,6 @@ export default function Footer() {
                                 </a>
                             )}
 
-                            {/* WhatsApp */}
                             <a
                                 href={`https://wa.me/${clinicData.whatsapp}`}
                                 target="_blank"
@@ -72,7 +69,7 @@ export default function Footer() {
                                 </svg>
                             </a>
 
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* LINKS */}

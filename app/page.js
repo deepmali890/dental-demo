@@ -14,27 +14,29 @@ import HowItWorks from "@/components/HowItWorks";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
+import Gallery from '@/components/Gallery'
 
 const page = () => {
     return (
         <>
-            <Header/>
+            <Header />
             <main>
-                <Hero/>
-                <AboutDoctor/>
-                <Stats/>
-                <Services/>
-                <WhyChooseUs/>
-                <HowItWorks/>
-                <BeforeAfter/>
-                <Reviews/>
-                <Pricing/>
-                <FAQ/>
-                <Appointment/>
-                <Location/>
+                <Hero />
+                <AboutDoctor />
+                <Stats />
+                <Services />
+                <WhyChooseUs />
+                <Gallery />
+                <HowItWorks />
+                <BeforeAfter />
+                <Reviews />
+                <Pricing />
+                <FAQ />
+                <Appointment />
+                <Location />
             </main>
-            <Footer/>
-            <WhatsAppCTA/>
+            <Footer />
+            <WhatsAppCTA />
         </>
     )
 }
