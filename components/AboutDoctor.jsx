@@ -20,7 +20,7 @@ const doctors = [
         name: "Dr. Arvind Singh",
         title: "Specialist in Prosthodontics and Crown & Bridge",
         image: "/images/arvindsinghbithu.jpg",
-        experience: "8+ Years Experience",
+        experience: "14+ Years Experience",
         bio: "Dr. Arvind Singh is a leading prosthodontics with over 14 years of experience in the field of Dentistry. He is also a gold medalist in the department of Prosthodontics and Crown& Bridge. Presently, he is associated with Jodhpur Dental College as an assistant professor. His passion for Prosthodontics and Dental Implants has led him to attend multitudinous advanced courses around the world and he has also been a part of major dental conferences around the world. He has successfully placed over 500 implants and Prosthodontics Rehabilitation Cases and he is having a plethora of happy patients who are satisfied with the results delivered.",
         credentials: [
             "BDS, Fellowship in Cosmetic Dentistry",
