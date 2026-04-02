@@ -67,7 +67,7 @@ function FaqItem({ item, isOpen, onToggle }) {
         <div
             className={`border rounded-sm transition ${
                 isOpen
-                    ? "border-blue-200 bg-blue-50"
+                    ? "border-red-200 bg-red-50"
                     : "border-gray-200 bg-white"
             }`}
         >

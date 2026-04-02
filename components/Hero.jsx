@@ -85,10 +85,10 @@ export default function Hero() {
         <div className="flex items-center justify-center lg:justify-start gap-3 mt-6 animate-fade-up-delay-1">
           <div className="flex">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} size={14} fill="#fff" />
+              <Star key={i} size={14} fill="#ef1f38" className="border-none outline-none" />
             ))}
           </div>
-          <p className="text-sm text-blue-100">
+          <p className="text-sm text-white">
             Trusted by {clinicData.stats[0].value} patients
           </p>
         </div>
