@@ -174,7 +174,7 @@ const clinicData = {
 
     //   SEO Metadata
     seo: {
-        title: "BrightSmile Dental – Best Dental Clinic in Jodhpur",
+        title: "Best Dental Clinic in Jodhpur | Perfect Smile Orthodontic & Implant Centre",
         description:
             "Advanced dental care in Jodhpur. Teeth whitening, implants, Invisalign, root canal & more. Book your appointment today.",
         keywords:
